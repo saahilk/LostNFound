@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+
+.logpage
+{
+
+position: center;
+margin: 0 auto; 
+width:400px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+
+
+/* Modal Content/Box */
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+
+
+/* Change styles for span and cancel button on extra small screens */
+
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+
+</style>
+</head>
+<body>
+
+
+
+
+
+<div class="logpage" >
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+
+      <img src="img_avatar2.png" alt="Add user" class="avatar">
+    </div>
+
+    <div class="container">
+	  <label><b>Name</b></label>
+      <input type="text" placeholder="Enter Name" name="name" required>
+
+	  <label><b>email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+	
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Add user</button>
+          </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+
+      
+    </div>
+  </form>
+</div>
+
+
+
+</body>
+</html>
+

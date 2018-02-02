@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+
+.navBar {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: block;
+    align-content: flex-start;
+}
+.navItemList{
+  list-style-type: none;
+}
+
+.navItemList li {
+    float: left;
+}
+
+.navItemList li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navItemList li a:hover {
+
+}
+.navtitle{
+  font-family: fantasy;
+  color: white;
+  text-align: center;
+  padding: 0px 200px 14px 6px;
+  margin-right: 200px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.navtitle a:hover{
+
+}
+
+#feeds{
+  align-content:center;
+
+}
+#feeds{
+  border-style: solid;
+  border-width: medium;
+  border-color: #333;
+  margin: 25px 50px;
+}
+#subButton{
+  position: relative;
+  left: 312px;
+  top: -45px;
+  background-color: #333;
+  border: none;
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.blog{
+  border-style: solid;
+
+}
+
+</style>
+</head>
+<body style="padding:0;margin:0;">
+  <div class="navBar">
+    <ul class="navItemList">
+      <li><div class="navtitle"><a href="#">Lost & Found</a></div></li>
+      <li><a href=#>Home</a></li>
+      <li><a href=#>Feeds</a></li>
+    </ul>
+  </div>
+
+<center>
+    <div id="feeds">
+
+        <form id="newBlog" action="">
+          <textarea id="text" rows="6" cols="100" placeholder="Add your lost and found description here"></textarea><br />
+          <input id="subButton" type="submit" />
+        </form>
+
+
+        <div class="blog">
+          <div id="blogOwner">
+            <p>
+              Sahil
+            </p>
+          </div><br />
+          <div id="blogdesc">
+            <p>
+              I lost My watch
+            </p>
+          </div>
+          <div id="blogTime">
+            <p>
+              12-08-2017 3pm
+            </p>
+          </div>
+        </div>
+
+
+    </div>
+</center>
+</body>
+</html>
